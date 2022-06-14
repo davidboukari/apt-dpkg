@@ -1,5 +1,22 @@
 # apt-dpkg
 
+
+## Update kernel
+```
+apt-cache policy linux-image-generic
+linux-image-generic:
+  Installé : 5.4.0.117.120
+  Candidat : 5.4.0.117.120
+ Table de version :
+ *** 5.4.0.117.120 500
+        500 http://fr.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+        500 http://fr.archive.ubuntu.com/ubuntu focal-security/main amd64 Packages
+        100 /var/lib/dpkg/status
+     5.4.0.26.32 500
+        500 http://fr.archive.ubuntu.com/ubuntu focal/main amd64 Packages
+
+```
+
 ```
 apt-cache search package
 apt-get install package
