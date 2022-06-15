@@ -14,8 +14,10 @@ linux-image-generic:
         100 /var/lib/dpkg/status
      5.4.0.26.32 500
         500 http://fr.archive.ubuntu.com/ubuntu focal/main amd64 Packages
-
 ```
+
+
+
 
 ```
 apt-cache search package
