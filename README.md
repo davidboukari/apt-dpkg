@@ -1,5 +1,7 @@
 # apt-dpkg
 
+## apt-mark
+* Set at manualy or automatic installed package
 
 ## Update kernel
 ```
